@@ -30,16 +30,25 @@ Esse módulo implementa a camada de acesso e manipulação de dados, utilizando 
 Estrutura do Banco: A tabela clientes armazena informações dos clientes com os campos:
 
 id (chave primária)
+
 nome
+
 sobrenome
+
 email
+
 cpf
 
 Principais Métodos:
 
 initDB(): Cria a tabela clientes caso ainda não exista.
+
 insert(): Adiciona novos registros.
+
 view(): Recupera todos os registros da tabela.
+
 search(): Realiza consultas filtradas por critérios específicos.
+
 delete(): Remove um registro pelo id.
+
 update(): Atualiza um registro existente.
